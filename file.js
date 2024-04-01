@@ -34,7 +34,6 @@ function click_handling()
         {
             n=Math.floor(Math.random()*quotes.length);
         }
-        console.log(previous+" "+before_previous+" "+n);
         before_previous=previous;
         previous=n;
     }
