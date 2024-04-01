@@ -19,9 +19,7 @@ var before_previous=-1;
 function click_handling()
 {
     var n=Math.floor(Math.random()*quotes.length);
-    if(previous==-1)
-    previous=n;
-    else if(before_previous==-1)
+    if(before_previous==-1)
     {
         while(n==previous)
         {
